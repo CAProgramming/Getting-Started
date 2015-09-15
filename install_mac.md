@@ -11,18 +11,18 @@ spotlight.
 
 Once you open it, it should look a bit like this:
 
-[terminalPic](terminal.png)
+![terminalPic](terminal.png)
 
 Type in `gcc` and press enter.
 
 A window should pop up:
 
-[installTools](install_xcode.png)
+![installTools](install_xcode.png)
 
 Click install and wait while the tools are installed. Once it is done
 type the same command again (`gcc` and then enter). If you see
 
-[gccPicture](gcc.png)
+![gccPicture](gcc.png)
 
 then everything was installed correctly.
 
