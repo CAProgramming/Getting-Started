@@ -54,6 +54,15 @@ apt-cyg install git
 apt-cyg install gcc
 ```
 
+It's also good to install the text editors Nano and Vim.
+
+```
+apt-cyg install nano
+```
+```
+apt-cyg install vim
+```
+
 These might take some time to complete. Once they are all done downloading,
 type `git` and press enter. You should see a bunch of text appear. If you see
 
