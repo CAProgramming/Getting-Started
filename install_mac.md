@@ -79,3 +79,12 @@ source ~/.bash_profile
 
 These commands may be confusing, but in short, what they do, is make your computer
 check `/usr/local/bin` for the Git program before checking `/usr/bin`.
+
+Now if you run
+```
+git --version
+```
+You should see
+```
+git version 2.5.0
+```
