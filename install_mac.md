@@ -6,7 +6,7 @@ compiler, and many more tools. It's fairly straightforward, and should not
 take long at all.
 
 First, open the Terminal application. This program is located in
-`Applications/Utilities/Terminal.app`. You can also search for it with
+`/Applications/Utilities/Terminal.app`. You can also search for it with
 spotlight.
 
 Once you open it, it should look a bit like this:

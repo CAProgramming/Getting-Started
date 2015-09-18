@@ -12,7 +12,7 @@ I'll also provide some download links:
 * [32 bit Cygwin](http://cygwin.com/setup-x86.exe)
 * [64 bit Cygwin](http://cygwin.com/setup-x86_64.exe)
 
-Once it downloads, run the exe file. You can leave everything at the default.
+Once it downloads, run the exe file. You can leave everything at the default, and choose the first download mirror.
 
 It should take some time to install, and once finishes, you should
 have a program on your computer called `Cygwin-Terminal`. Open it to
@@ -40,7 +40,7 @@ install apt-cyg /bin
 ```
 and press enter.
 
-It would also be good to install wget, git, and gcc.
+It would also be good to install wget, git, and clang (a C compiler).
 
 Type the following commands:
 
@@ -51,7 +51,7 @@ apt-cyg install wget
 apt-cyg install git
 ```
 ```
-apt-cyg install gcc
+apt-cyg install clang
 ```
 
 It's also good to install the text editors Nano and Vim.

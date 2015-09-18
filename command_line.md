@@ -70,7 +70,7 @@ $ commandName options inputs
 With the `cd` command, `cd` is the command name, and the folder (`Desktop` for
 example) is the input. `cd` has no options.
 
-With `ls` there are no inputs and we have not included any options. However, 
+With `ls` we have not included any options or inputs. However, 
 options do exist for the `ls` command. Options (also known as flags) always
 begin with a `-` or `--`. One option for `ls` is the `-l` flag. This stands for
 `long`. Try running
@@ -82,6 +82,7 @@ information for each file.
 
 Another option for ls is the `-a` command, which stands for `all`. `ls` does not
 show you hidden files (files that start with a `.`) by default. The `-a` command
+will let you see these files.
 
 Run
 ```
@@ -92,8 +93,8 @@ This time you might see some files starting with a `.`. You should at least see
 two extra files: `.` and `..`. These are special folders. The `.` folder means
 the current folder. Try running `cd .`. You should see that nothing happens,
 because you are changing the current directory to the current directory.
-We already know what `..` is
+We already know what `..` means the directory above the current one.
 
 When you execute a command, you can use multiple flags. So if you run `ls -a -l` 
 you'll get all the files in long form. The `ls` command, and various others, let
-you put the options together, so `ls -a -l` is equivalent to `ls -al`
+you put the options together, so `ls -a -l` is equivalent to `ls -al`.
